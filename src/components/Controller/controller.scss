@@ -1,0 +1,16 @@
+.controller-wrap {
+  display: block;
+  // max-width: 56.25vw;
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+
+  .controller-glassCard {
+    width: 100%;
+    height: 100%;
+  }
+}
