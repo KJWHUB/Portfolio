@@ -5,3 +5,28 @@
   background: url('/images/concept-bg_1.jpg') no-repeat center;
   background-size: cover;
 }
+
+.blackBg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #000;
+  z-index: 999;
+
+  animation-name: bg-Invisibility;
+  animation-duration: 3s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes bg-Invisibility {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
