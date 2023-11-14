@@ -1,3 +1,11 @@
+'use client'
+
+import Bg from '@/components/bg/ConceptBg'
+
 export default function Home() {
-  return <main>home</main>
+  return (
+    <main style={{ position: 'relative' }}>
+      <Bg />
+    </main>
+  )
 }
