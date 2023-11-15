@@ -4,7 +4,7 @@ const ConceptBg = () => {
   return (
     <>
       <div className={style.bgImage}></div>
-      <div className={style.blackBg}></div>
+      <div className={`${style.blackBg} `}></div>
     </>
   )
 }
