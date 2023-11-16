@@ -1,9 +1,9 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { ChevronDoubleLeftIcon } from '@heroicons/react/24/solid'
 import Link from 'next/link'
 import { usePathname, useSearchParams } from 'next/navigation'
-import { ChevronDoubleLeftIcon } from '@heroicons/react/24/solid'
 import './sideBarRight.scss'
 import { classNames } from '@/utils/modules/className'
 

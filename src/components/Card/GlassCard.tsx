@@ -1,5 +1,5 @@
-import style from './glassCard.module.scss'
 import { classNames } from '@/utils/modules/className'
+import style from './glassCard.module.scss'
 
 function GlassCard({
   children,
