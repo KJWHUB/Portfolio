@@ -1,0 +1,59 @@
+{
+  "skill": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "list": [
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_icon": ""
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "list": [
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_icon": ""
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "label": "Deployment",
+      "list": [
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_icon": ""
+        }
+      ]
+    },
+    {
+      "id": "version_control",
+      "label": "Version Control",
+      "list": [
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_icon": ""
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "list": [
+        {
+          "skill_id": "react",
+          "skill_name": "React",
+          "skill_icon": ""
+        }
+      ]
+    }
+  ]
+}

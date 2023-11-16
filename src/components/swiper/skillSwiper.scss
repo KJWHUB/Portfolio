@@ -1,0 +1,23 @@
+// pg wrap
+div.skill-pagination-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  z-index: 99;
+
+  .skill-pagination-bullet {
+    color: rgba($color: #fff, $alpha: 0.3);
+
+    &.skill-pagination-bullet-active {
+      color: rgba($color: #fff, $alpha: 1);
+    }
+  }
+}
+
+/*
+
+// class="swiper-pagination-bullet skill-pagination-item-wrap swiper-pagination-bullet-active"
+*/
