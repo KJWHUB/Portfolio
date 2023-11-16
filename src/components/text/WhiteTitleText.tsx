@@ -1,7 +1,20 @@
-import style from './whiteTitleText.module.scss'
+import { classNames } from '@/utils/modules/className'
+import css from './whiteTitleText.module.scss'
 
-const WhiteTitleText = ({ children }: { children: React.ReactNode }) => {
-  return <h2 className={style.wrap}>{children}</h2>
+const WhiteTitleText = ({
+  children,
+  style,
+  className,
+}: {
+  children: React.ReactNode
+  className?: string
+  style?: object
+}) => {
+  return (
+    <h2 className={classNames(css.wrap, className)} style={style}>
+      {children}
+    </h2>
+  )
 }
 
 export default WhiteTitleText
