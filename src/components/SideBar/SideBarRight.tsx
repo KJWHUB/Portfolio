@@ -1,27 +1,37 @@
 'use client'
 
+import { useEffect, useState } from 'react'
+import Link from 'next/link'
+import { usePathname, useSearchParams } from 'next/navigation'
 import { ChevronDoubleLeftIcon } from '@heroicons/react/24/solid'
 import './sideBarRight.scss'
-import { useState } from 'react'
 import { classNames } from '@/utils/modules/className'
 
 const RightSideBar = () => {
   const [navIsOn, setNavIsOn] = useState(false)
+  const [activeRoute, setActiveRoute] = useState('/')
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
+  useEffect(() => {
+    setActiveRoute(pathname)
+  }, [pathname, searchParams])
+
   const navList = [
     {
       id: '/',
       label: 'home',
     },
     {
-      id: 'skill',
+      id: '/skill',
       label: 'skill',
     },
     {
-      id: 'project',
+      id: '/project',
       label: 'project',
     },
     {
-      id: 'career',
+      id: '/career',
       label: 'career',
     },
   ]
@@ -54,15 +64,16 @@ const RightSideBar = () => {
         {navList.map((el) => {
           return (
             <li key={el.id}>
-              <p
-                className={classNames(
-                  'nav-text',
-                  // el.id === chapter ? 'isOn' : '',
-                )}
-                onClick={() => {}}
-              >
-                {el.label.toLocaleUpperCase()}
-              </p>
+              <Link href={el.id}>
+                <p
+                  className={classNames(
+                    'nav-text',
+                    el.id === activeRoute ? 'isOn' : '',
+                  )}
+                >
+                  {el.label.toLocaleUpperCase()}
+                </p>
+              </Link>
             </li>
           )
         })}

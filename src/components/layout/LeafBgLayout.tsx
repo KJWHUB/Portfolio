@@ -1,5 +1,3 @@
-'use client'
-
 import Controller from '@/components/Controller/Controller'
 import Bg from '@/components/bg/ConceptBg'
 

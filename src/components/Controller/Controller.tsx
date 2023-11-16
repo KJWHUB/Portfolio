@@ -1,5 +1,3 @@
-'use client'
-
 import GlassCard from '@/components/Card/GlassCard'
 import SideBarRight from '@/components/SideBar/SideBarRight'
 import './controller.scss'
