@@ -9,15 +9,17 @@ div.skill-pagination-wrap {
   z-index: 99;
 
   .skill-pagination-bullet {
+    transition: all 0.5s;
     color: rgba($color: #fff, $alpha: 0.3);
+
+    cursor: pointer;
+
+    &:hover {
+      color: rgba($color: #fff, $alpha: 1);
+    }
 
     &.skill-pagination-bullet-active {
       color: rgba($color: #fff, $alpha: 1);
     }
   }
 }
-
-/*
-
-// class="swiper-pagination-bullet skill-pagination-item-wrap swiper-pagination-bullet-active"
-*/
