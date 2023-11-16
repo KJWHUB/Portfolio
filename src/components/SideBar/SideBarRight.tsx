@@ -5,17 +5,11 @@ import './sideBarRight.scss'
 import { useState } from 'react'
 import { classNames } from '@/utils/modules/className'
 
-const RightSideBar = ({
-  chapter,
-  changeChapter,
-}: {
-  chapter: string
-  changeChapter: (id: string) => void
-}) => {
+const RightSideBar = () => {
   const [navIsOn, setNavIsOn] = useState(false)
   const navList = [
     {
-      id: 'main',
+      id: '/',
       label: 'home',
     },
     {
@@ -63,11 +57,9 @@ const RightSideBar = ({
               <p
                 className={classNames(
                   'nav-text',
-                  el.id === chapter ? 'isOn' : '',
+                  // el.id === chapter ? 'isOn' : '',
                 )}
-                onClick={() => {
-                  changeChapter(el.id)
-                }}
+                onClick={() => {}}
               >
                 {el.label.toLocaleUpperCase()}
               </p>
