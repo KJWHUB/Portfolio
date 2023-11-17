@@ -7,7 +7,42 @@
         {
           "skill_id": "react",
           "skill_name": "React",
-          "skill_icon": ""
+          "skill_icon": "/svgs/react_icon.svg"
+        },
+        {
+          "skill_id": "next",
+          "skill_name": "Next",
+          "skill_icon": "/svgs/nextjs_icon.svg"
+        },
+        {
+          "skill_id": "vue",
+          "skill_name": "Vue",
+          "skill_icon": "/svgs/vue_icon.svg"
+        },
+        {
+          "skill_id": "typescript",
+          "skill_name": "TypeScript",
+          "skill_icon": "/svgs/typescript_icon.svg"
+        },
+        {
+          "skill_id": "javascript",
+          "skill_name": "JavaScript",
+          "skill_icon": "/svgs/js_icon.svg"
+        },
+        {
+          "skill_id": "scss",
+          "skill_name": "SCSS",
+          "skill_icon": "/svgs/scss_icon.svg"
+        },
+        {
+          "skill_id": "html",
+          "skill_name": "Html",
+          "skill_icon": "/svgs/html_icon.svg"
+        },
+        {
+          "skill_id": "css",
+          "skill_name": "CSS",
+          "skill_icon": "/svgs/css_icon.svg"
         }
       ]
     },
