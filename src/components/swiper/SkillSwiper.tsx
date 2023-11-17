@@ -46,8 +46,8 @@ const SkillSwiper = () => {
                         <Image
                           src={skill.skill_icon}
                           alt={el.id}
-                          width={50}
-                          height={50}
+                          width={60}
+                          height={60}
                         />
                       )}
                     </IconGlassCard>
