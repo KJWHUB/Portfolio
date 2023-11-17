@@ -1,61 +1,71 @@
+.open-btn {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translate(-50%, -50%);
+  padding: 0.7rem;
+
+  background-color: transparent;
+  border: 0;
+
+  z-index: 99;
+
+  transition: all 0.3s;
+
+  &.hide {
+    opacity: 0;
+  }
+
+  &:hover {
+    right: 1.2rem;
+  }
+
+  &:active {
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+}
+
 .nav-side-right {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 30px;
 
-  .open-btn {
-    position: absolute;
-    top: 50%;
-    right: 0.5rem;
-    transform: translate(-50%, -50%);
-    padding: 0.7rem;
+  // background-color: rgba($color: #000000, $alpha: 0.7);
 
-    background-color: transparent;
-    border: 0;
+  z-index: 100;
+}
 
-    transition: all 0.7s;
+ul.nav-list {
+  $text-color: #000;
+  $bg-color: #fff;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3rem;
 
-    &.hide {
-      opacity: 0;
-    }
+  border-left: 1px solid rgba($color: $bg-color, $alpha: 0.3);
+  background-color: $bg-color;
 
-    &:hover {
-      right: 1.2rem;
-    }
+  z-index: 101;
 
-    &:active {
-      border: 1px solid #fff;
-      background-color: #fff;
-    }
-  }
+  li {
+    .nav-text {
+      padding: 1rem;
+      font-size: 1.5rem;
+      color: rgba($color: $text-color, $alpha: 0.3);
 
-  ul.nav-list {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 3rem;
+      transition: all 0.5s;
 
-    border-left: 1px solid rgba($color: #fff, $alpha: 0.3);
+      &:hover {
+        color: $text-color;
+      }
 
-    li {
-      .nav-text {
-        padding: 1rem;
-        font-size: 1.5rem;
-        color: rgba($color: #fff, $alpha: 0.3);
-
-        transition: all 0.5s;
-
-        &:hover {
-          color: #fff;
-        }
-
-        &.isOn {
-          color: #fff;
-        }
+      &.isOn {
+        color: $text-color;
       }
     }
   }

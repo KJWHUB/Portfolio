@@ -46,13 +46,22 @@ const RightSideBar = () => {
   }
 
   return (
-    <div className="nav-side-right" onClick={isNavOff}>
+    <>
       <button
         className={classNames('open-btn', navIsOn ? 'hide' : '')}
         onClick={isNavOn}
       >
         <ChevronDoubleLeftIcon style={{ color: 'white', width: '1.5rem' }} />
       </button>
+
+      <div
+        className={classNames(
+          'nav-side-right',
+          'animate__animated',
+          navIsOn ? 'animate__fadeInRight' : 'animate__fadeOutRight',
+        )}
+        onClick={isNavOff}
+      ></div>
 
       <ul
         className={classNames(
@@ -78,7 +87,7 @@ const RightSideBar = () => {
           )
         })}
       </ul>
-    </div>
+    </>
   )
 }
 
