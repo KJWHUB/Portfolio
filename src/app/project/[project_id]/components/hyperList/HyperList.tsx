@@ -22,11 +22,20 @@ const HyperList = ({ list }: { list: Array<HyperItem> }) => {
     },
   ]
 
+  const handleUrl = (url: string) => {
+    window.open(url)
+  }
+
   return (
     <ul className={css.wrap}>
       {list.map((el, i: number) => {
         return (
-          <li key={i}>
+          <li
+            key={i}
+            onClick={() => {
+              handleUrl(el.url)
+            }}
+          >
             {iconFind.find((iconInfo) => iconInfo.id === el.id)?.icon}
           </li>
         )
