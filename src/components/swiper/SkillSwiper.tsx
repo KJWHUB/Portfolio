@@ -33,8 +33,6 @@ const SkillSwiper = () => {
         className="skill-swiper"
         modules={[Pagination]}
         pagination={skill_pagination}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
       >
         {data.skill.map((el, i) => {
           return (
