@@ -120,5 +120,162 @@
         }
       ]
     }
+  ],
+  "project": [
+    {
+      "id": "k_deal",
+      "project_name": "K Deal",
+      "project_subName": "온라인 쇼핑몰 서비스",
+      "project_description": "클라이언트 서비스 개발 제작",
+      "project_content": "asdasd",
+      "project_image": "",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["Vue"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "code",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "service",
+          "url": "",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "smlie_trip",
+      "project_name": "Smlie Trip",
+      "project_subName": "온라인 여행 플랫폼",
+      "project_description": "백오피스 화면 개발, 서버개발",
+      "project_content": "asdasd",
+      "project_image": "",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["Vue"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "code",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "service",
+          "url": "",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "baexang_gallery",
+      "project_name": "BAEXANG GALLERY",
+      "project_subName": "온라인 그림 컨텐츠 쇼핑 서비스",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": "asdasd",
+      "project_image": "",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["js"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "code",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "service",
+          "url": "",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "oska_product",
+      "project_name": "OSKA Product",
+      "project_subName": "온라인 상품 소개 페이지",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": "asdasd",
+      "project_image": "",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["js"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "code",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "service",
+          "url": "",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "id": "twosome_place",
+      "project_name": "A TWOSOME PLACE",
+      "project_subName": "온라인 비즈니스 소개페이지",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": "asdasd",
+      "project_image": "",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["js"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "code",
+          "url": "",
+          "icon": ""
+        },
+        {
+          "id": "service",
+          "url": "",
+          "icon": ""
+        }
+      ]
+    }
   ]
 }
