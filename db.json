@@ -128,7 +128,7 @@
       "project_subName": "온라인 쇼핑몰 서비스",
       "project_description": "클라이언트 서비스 개발 제작",
       "project_content": "asdasd",
-      "project_image": "",
+      "project_image": "/images/project/kdeal.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -138,18 +138,11 @@
       "hyper_list": [
         {
           "id": "notion",
-          "url": "",
-          "icon": ""
-        },
-        {
-          "id": "code",
-          "url": "",
-          "icon": ""
+          "url": "https://odd-vacuum-f21.notion.site/K-Deal-7d1ccf60175e43b08d928fdfa413a8cc?pvs=4"
         },
         {
           "id": "service",
-          "url": "",
-          "icon": ""
+          "url": "https://www.kdeal.co.kr/"
         }
       ]
     },
@@ -159,7 +152,7 @@
       "project_subName": "온라인 여행 플랫폼",
       "project_description": "백오피스 화면 개발, 서버개발",
       "project_content": "asdasd",
-      "project_image": "",
+      "project_image": "/images/project/st_dashborad.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -169,18 +162,7 @@
       "hyper_list": [
         {
           "id": "notion",
-          "url": "",
-          "icon": ""
-        },
-        {
-          "id": "code",
-          "url": "",
-          "icon": ""
-        },
-        {
-          "id": "service",
-          "url": "",
-          "icon": ""
+          "url": "https://odd-vacuum-f21.notion.site/Smile-trip-b475b6486b914d619595b6c70c39d93a?pvs=4"
         }
       ]
     },
@@ -190,7 +172,7 @@
       "project_subName": "온라인 그림 컨텐츠 쇼핑 서비스",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "",
+      "project_image": "/images/project/st_dashborad.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -199,19 +181,12 @@
       ],
       "hyper_list": [
         {
-          "id": "notion",
-          "url": "",
-          "icon": ""
-        },
-        {
           "id": "code",
-          "url": "",
-          "icon": ""
+          "url": ""
         },
         {
           "id": "service",
-          "url": "",
-          "icon": ""
+          "url": ""
         }
       ]
     },
@@ -221,7 +196,7 @@
       "project_subName": "온라인 상품 소개 페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "",
+      "project_image": "/images/project/st_dashborad.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -230,19 +205,12 @@
       ],
       "hyper_list": [
         {
-          "id": "notion",
-          "url": "",
-          "icon": ""
-        },
-        {
           "id": "code",
-          "url": "",
-          "icon": ""
+          "url": ""
         },
         {
           "id": "service",
-          "url": "",
-          "icon": ""
+          "url": ""
         }
       ]
     },
@@ -252,7 +220,7 @@
       "project_subName": "온라인 비즈니스 소개페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "",
+      "project_image": "/images/project/st_dashborad.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -261,19 +229,12 @@
       ],
       "hyper_list": [
         {
-          "id": "notion",
-          "url": "",
-          "icon": ""
-        },
-        {
           "id": "code",
-          "url": "",
-          "icon": ""
+          "url": ""
         },
         {
           "id": "service",
-          "url": "",
-          "icon": ""
+          "url": ""
         }
       ]
     }
