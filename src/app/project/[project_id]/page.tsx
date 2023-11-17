@@ -2,6 +2,8 @@
 
 import Image from 'next/image'
 import { useParams } from 'next/navigation'
+import BackController from '@/components/BackController/BackController'
+
 import WhiteTitleText from '@/components/text/WhiteTitleText'
 
 import data from '../../../../db.json'
@@ -14,6 +16,8 @@ const Page = () => {
   if (info) {
     return (
       <>
+        <BackController />
+
         <WhiteTitleText
           className="animate__animated animate__fadeIn"
           style={{ textAlign: 'center' }}
