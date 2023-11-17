@@ -137,12 +137,12 @@
       ],
       "hyper_list": [
         {
-          "id": "notion",
-          "url": "https://odd-vacuum-f21.notion.site/K-Deal-7d1ccf60175e43b08d928fdfa413a8cc?pvs=4"
-        },
-        {
           "id": "service",
           "url": "https://www.kdeal.co.kr/"
+        },
+        {
+          "id": "notion",
+          "url": "https://odd-vacuum-f21.notion.site/K-Deal-7d1ccf60175e43b08d928fdfa413a8cc?pvs=4"
         }
       ]
     },
@@ -172,7 +172,7 @@
       "project_subName": "온라인 그림 컨텐츠 쇼핑 서비스",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "/images/project/st_dashborad.png",
+      "project_image": "/images/project/baxsang_page.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -181,12 +181,12 @@
       ],
       "hyper_list": [
         {
-          "id": "code",
-          "url": ""
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-baexang/"
         },
         {
-          "id": "service",
-          "url": ""
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-baexang"
         }
       ]
     },
@@ -196,7 +196,7 @@
       "project_subName": "온라인 상품 소개 페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "/images/project/st_dashborad.png",
+      "project_image": "/images/project/oska_page.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -205,12 +205,12 @@
       ],
       "hyper_list": [
         {
-          "id": "code",
-          "url": ""
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-oska-product/"
         },
         {
-          "id": "service",
-          "url": ""
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-oska-product"
         }
       ]
     },
@@ -220,7 +220,7 @@
       "project_subName": "온라인 비즈니스 소개페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
       "project_content": "asdasd",
-      "project_image": "/images/project/st_dashborad.png",
+      "project_image": "/images/project/twosome_page.png",
       "project_skill": [
         {
           "id": "frontend",
@@ -229,12 +229,12 @@
       ],
       "hyper_list": [
         {
-          "id": "code",
-          "url": ""
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-twosome-place/"
         },
         {
-          "id": "service",
-          "url": ""
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-twosome-place"
         }
       ]
     }
