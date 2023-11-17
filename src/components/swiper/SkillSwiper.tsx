@@ -27,10 +27,10 @@ const SkillSwiper = () => {
   }
   return (
     <>
-      <div className="skill-pagination-wrap"></div>
+      <div className="skill-pagination-wrap animate__animated animate__fadeIn"></div>
 
       <Swiper
-        className="skill-swiper"
+        className="skill-swiper animate__animated animate__fadeIn"
         modules={[Pagination]}
         pagination={skill_pagination}
       >
