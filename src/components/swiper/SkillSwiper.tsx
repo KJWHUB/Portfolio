@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -10,6 +11,7 @@ import 'swiper/css'
 import './skillSwiper.scss'
 
 import data from '../../../db.json'
+import IconGlassCard from '../Card/IconGlassCard'
 
 const SkillSwiper = () => {
   const skill_pagination = {
@@ -28,6 +30,7 @@ const SkillSwiper = () => {
       <div className="skill-pagination-wrap"></div>
 
       <Swiper
+        className="skill-swiper"
         modules={[Pagination]}
         pagination={skill_pagination}
         onSwiper={(swiper) => console.log(swiper)}
@@ -36,7 +39,23 @@ const SkillSwiper = () => {
         {data.skill.map((el, i) => {
           return (
             <SwiperSlide key={i}>
-              <div style={{ height: '400px' }}>123 {i}</div>
+              {el.list.map((skill, skillIndex) => {
+                return (
+                  <div className="skill-item" key={skillIndex}>
+                    <IconGlassCard>
+                      {!skill.skill_icon && skill.skill_name}
+                      {skill.skill_icon && (
+                        <Image
+                          src={skill.skill_icon}
+                          alt={el.id}
+                          width={50}
+                          height={50}
+                        />
+                      )}
+                    </IconGlassCard>
+                  </div>
+                )
+              })}
             </SwiperSlide>
           )
         })}
