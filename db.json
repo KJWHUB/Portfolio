@@ -51,9 +51,24 @@
       "label": "Backend",
       "list": [
         {
-          "skill_id": "react",
-          "skill_name": "React",
-          "skill_icon": ""
+          "skill_id": "java",
+          "skill_name": "Java",
+          "skill_icon": "/svgs/java_icon.svg"
+        },
+        {
+          "skill_id": "spring",
+          "skill_name": "Spring",
+          "skill_icon": "/svgs/spring_icon.svg"
+        },
+        {
+          "skill_id": "spring_boot",
+          "skill_name": "Spring Boot",
+          "skill_icon": "/svgs/spring_boot_icon.svg"
+        },
+        {
+          "skill_id": "jpa",
+          "skill_name": "JPA",
+          "skill_icon": "/svgs/jpa_icon.svg"
         }
       ]
     },
@@ -62,9 +77,19 @@
       "label": "Deployment",
       "list": [
         {
-          "skill_id": "react",
-          "skill_name": "React",
-          "skill_icon": ""
+          "skill_id": "vercel",
+          "skill_name": "Vercel",
+          "skill_icon": "/svgs/vercel_icon.svg"
+        },
+        {
+          "skill_id": "docker",
+          "skill_name": "Docker",
+          "skill_icon": "/svgs/docker_icon.svg"
+        },
+        {
+          "skill_id": "firebase",
+          "skill_name": "Firebase",
+          "skill_icon": "/svgs/firebase_icon.svg"
         }
       ]
     },
@@ -73,9 +98,14 @@
       "label": "Version Control",
       "list": [
         {
-          "skill_id": "react",
-          "skill_name": "React",
-          "skill_icon": ""
+          "skill_id": "git",
+          "skill_name": "Git",
+          "skill_icon": "/svgs/git_icon.svg"
+        },
+        {
+          "skill_id": "github",
+          "skill_name": "GitHub",
+          "skill_icon": "/svgs/github_icon.svg"
         }
       ]
     },
@@ -84,9 +114,9 @@
       "label": "Communication",
       "list": [
         {
-          "skill_id": "react",
-          "skill_name": "React",
-          "skill_icon": ""
+          "skill_id": "figma",
+          "skill_name": "Figma",
+          "skill_icon": "/svgs/figma_icon.svg"
         }
       ]
     }
