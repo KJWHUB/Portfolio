@@ -1,0 +1,18 @@
+.wrap {
+  display: flex;
+  align-items: center;
+
+  li {
+    padding: 1rem;
+    cursor: pointer;
+  }
+}
+
+.icon {
+  width: 2rem;
+  color: rgba($color: #fff, $alpha: 0.7);
+
+  &:hover {
+    color: rgba($color: #fff, $alpha: 1);
+  }
+}

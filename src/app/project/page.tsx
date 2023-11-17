@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import ProjectGlassCard from '@/components/Card/ProjectGlassCard'
 import WhiteTitleText from '@/components/text/WhiteTitleText'
 
@@ -28,7 +29,9 @@ export default function Page() {
                 animationDelay: `0.${i}s`,
               }}
             >
-              <ProjectGlassCard projectInfo={item} />
+              <Link href={'/project/' + item.id}>
+                <ProjectGlassCard projectInfo={item} />
+              </Link>
             </li>
           )
         })}
