@@ -120,5 +120,131 @@
         }
       ]
     }
+  ],
+  "project": [
+    {
+      "id": "k_deal",
+      "project_name": "K Deal",
+      "project_subName": "온라인 쇼핑몰 서비스",
+      "project_description": "클라이언트 서비스 개발 제작",
+      "project_content": [
+        "K-deal 은 KT의 통신데이터를 기반으로 고객의 특성과 소비패턴, 관심사 등의 빅데이터를 AI로 분석해 개인에게 맞는 최적의 상품을 특가로 제공하는 온라인 쇼핑몰 서비스 입니다.",
+        "프로젝트에서 맡은 역할은 클라이언트 서비스 화면 구현 이었습니다.  인원은 3명이서 진행했습니다.",
+        "첫 실무 프로젝트를 통해 기본적인 프론트엔드 역량과 업무 프로세스를 익힐 수 있었습니다."
+      ],
+      "project_image": "/images/project/kdeal.png",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["Vue"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "service",
+          "url": "https://www.kdeal.co.kr/"
+        },
+        {
+          "id": "notion",
+          "url": "https://odd-vacuum-f21.notion.site/K-Deal-7d1ccf60175e43b08d928fdfa413a8cc?pvs=4"
+        }
+      ]
+    },
+    {
+      "id": "smlie_trip",
+      "project_name": "Smlie Trip",
+      "project_subName": "온라인 여행 플랫폼",
+      "project_description": "백오피스 화면 개발, API 개발",
+      "project_content": ["lorem"],
+      "project_image": "/images/project/st_dashborad.png",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["Vue"]
+        },
+        {
+          "id": "backend",
+          "skill_list": ["Spring Boot", "JPA"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "notion",
+          "url": "https://odd-vacuum-f21.notion.site/Smile-trip-b475b6486b914d619595b6c70c39d93a?pvs=4"
+        }
+      ]
+    },
+    {
+      "id": "baexang_gallery",
+      "project_name": "BAEXANG GALLERY",
+      "project_subName": "온라인 그림 컨텐츠 쇼핑 서비스",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": ["lorem"],
+      "project_image": "/images/project/baxsang_page.png",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["html", "css", "js", "jquery"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-baexang/"
+        },
+        {
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-baexang"
+        }
+      ]
+    },
+    {
+      "id": "twosome_place",
+      "project_name": "A TWOSOME PLACE",
+      "project_subName": "온라인 비즈니스 소개페이지",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": ["lorem"],
+      "project_image": "/images/project/twosome_page.png",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["html", "css", "js", "jquery"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-twosome-place/"
+        },
+        {
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-twosome-place"
+        }
+      ]
+    },
+    {
+      "id": "oska_product",
+      "project_name": "OSKA Product",
+      "project_subName": "온라인 상품 소개 페이지",
+      "project_description": "클라이언트 화면 개발 (Clone code)",
+      "project_content": ["lorem"],
+      "project_image": "/images/project/oska_page.png",
+      "project_skill": [
+        {
+          "id": "frontend",
+          "skill_list": ["html", "css", "js", "jquery"]
+        }
+      ],
+      "hyper_list": [
+        {
+          "id": "service",
+          "url": "https://kjw1025.github.io/op-oska-product/"
+        },
+        {
+          "id": "code",
+          "url": "https://github.com/kjw1025/op-oska-product"
+        }
+      ]
+    }
   ]
 }

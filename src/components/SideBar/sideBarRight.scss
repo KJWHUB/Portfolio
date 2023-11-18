@@ -52,6 +52,9 @@ ul.nav-list {
   border-left: 1px solid rgba($color: $bg-color, $alpha: 0.3);
   background-color: $bg-color;
 
+  animation-duration: 0.7s;
+  // animation-timing-function: ease-in-out;
+
   z-index: 101;
 
   li {

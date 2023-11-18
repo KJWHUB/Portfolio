@@ -26,7 +26,7 @@ const SkillSwiper = () => {
     },
   }
   return (
-    <>
+    <div style={{ height: '100%' }}>
       <div className="skill-pagination-wrap animate__animated animate__fadeIn"></div>
 
       <Swiper
@@ -58,7 +58,7 @@ const SkillSwiper = () => {
           )
         })}
       </Swiper>
-    </>
+    </div>
   )
 }
 

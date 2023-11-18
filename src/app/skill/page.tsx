@@ -6,7 +6,7 @@ export default function Page() {
     <>
       <WhiteTitleText
         className="animate__animated animate__fadeIn"
-        style={{ textAlign: 'center' }}
+        style={{ marginBottom: '3rem', textAlign: 'center' }}
       >
         SKILL
       </WhiteTitleText>
