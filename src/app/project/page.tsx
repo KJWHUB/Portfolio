@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link'
 import ProjectGlassCard from '@/components/Card/ProjectGlassCard'
 import WhiteTitleText from '@/components/text/WhiteTitleText'

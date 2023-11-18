@@ -9,6 +9,7 @@ import WhiteTitleText from '@/components/text/WhiteTitleText'
 import data from '../../../../db.json'
 import ContentWrap from './components/contentWrap/ContentWrap'
 import HyperList from './components/hyperList/HyperList'
+import ProjectSkill from './components/projectSkill/ProjectSkill'
 
 const Page = () => {
   const { project_id } = useParams()
@@ -47,11 +48,21 @@ const Page = () => {
               alt={info.id}
               width={400}
               height={400}
-              style={{ width: 'auto', height: 'auto' }}
+              style={{ width: 'auto', height: 'auto', objectFit: 'contain' }}
             />
           </div>
 
-          <div className="right" style={{ width: '50%', paddingLeft: '3rem' }}>
+          <div
+            className="right"
+            style={{
+              width: '50%',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between',
+              paddingLeft: '3rem',
+              paddingRight: '3rem',
+            }}
+          >
             {/* link */}
             <HyperList list={info.hyper_list} />
 
@@ -59,6 +70,7 @@ const Page = () => {
             <ContentWrap list={info.project_content} />
 
             {/* skill */}
+            <ProjectSkill list={info.project_skill} />
           </div>
         </div>
       </>
