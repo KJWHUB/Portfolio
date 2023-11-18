@@ -7,6 +7,7 @@ import BackController from '@/components/BackController/BackController'
 import WhiteTitleText from '@/components/text/WhiteTitleText'
 
 import data from '../../../../db.json'
+import ContentWrap from './components/contentWrap/ContentWrap'
 import HyperList from './components/hyperList/HyperList'
 
 const Page = () => {
@@ -20,7 +21,7 @@ const Page = () => {
 
         <WhiteTitleText
           className="animate__animated animate__fadeIn"
-          style={{ textAlign: 'center' }}
+          style={{ marginBottom: '3rem', textAlign: 'center' }}
         >
           {info.project_name}
         </WhiteTitleText>
@@ -29,7 +30,7 @@ const Page = () => {
           className="content-wrap"
           style={{
             display: 'flex',
-            marginTop: '3rem',
+            height: '100%',
           }}
         >
           <div
@@ -51,10 +52,13 @@ const Page = () => {
           </div>
 
           <div className="right" style={{ width: '50%', paddingLeft: '3rem' }}>
+            {/* link */}
             <HyperList list={info.hyper_list} />
 
-            <h3>내용</h3>
-            <p>{info.project_content}</p>
+            {/* content */}
+            <ContentWrap list={info.project_content} />
+
+            {/* skill */}
           </div>
         </div>
       </>

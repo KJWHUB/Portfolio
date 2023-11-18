@@ -4,7 +4,7 @@ div.skill-pagination-wrap {
   justify-content: space-between;
   align-items: center;
 
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 
   z-index: 99;
 
@@ -41,12 +41,11 @@ div.skill-pagination-wrap {
 
 // swiper wrap
 .skill-swiper {
-  min-height: 50%;
+  height: 87%;
   .swiper-wrapper {
     height: 100%;
   }
   .swiper-slide {
-    height: 100%;
     padding: 0 1rem;
     display: flex;
     flex-wrap: wrap;
