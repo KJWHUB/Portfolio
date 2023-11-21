@@ -1,12 +1,12 @@
-@mixin set-color($color, $bg-color) {
-  color: $color;
-  background-color: $bg-color;
-}
+// @mixin set-color($color, $bg-color) {
+//   color: $color;
+//   background-color: $bg-color;
+// }
 
-h1 {
-  @include set-color(#000, #f0f0f0);
-}
+// h1 {
+//   @include set-color(#000, #f0f0f0);
+// }
 
-p {
-  @include set-color(#bada77, #234510);
-}
+// p {
+//   @include set-color(#bada77, #234510);
+// }
