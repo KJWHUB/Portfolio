@@ -1,3 +1,5 @@
+import { classNames } from '@/utils/modules/className'
+
 const MyInfo = () => {
   const infoList = [
     {
@@ -14,8 +16,10 @@ const MyInfo = () => {
     },
   ]
   return (
-    <div className="myInfo-wrap animate__animated animate__fadeIn">
-      <p className="job-title">web-developer</p>
+    <div
+      className={classNames('myInfo-wrap', 'animate__animated animate__fadeIn')}
+    >
+      <p className="job-title">Web-developer</p>
       <ul>
         {infoList.map((el, i) => {
           return (
