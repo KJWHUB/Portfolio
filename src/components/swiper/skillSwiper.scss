@@ -3,8 +3,11 @@ div.skill-pagination-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   margin-bottom: 2rem;
+
+  overflow-x: scroll;
 
   z-index: 99;
 

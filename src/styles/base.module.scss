@@ -39,15 +39,12 @@ body {
   }
 }
 
-// 뷰포트의 가로너비가 1025px 이상인 경우 적용 : 데스크탑 환경
 @media screen and (min-width: 1025px) {
 }
 
-// 뷰포트의 가로너비가 769px 이상 1024px 이하 : 태블릿 환경
 @media screen and (min-width: 769px) and (max-width: 1024) {
 }
 
-// 뷰포트의 가로너비가 768px 이하인 경우 적용 : 모바일 환경
 @media screen and (min-width: 768px) {
 }
 
