@@ -40,9 +40,14 @@
   z-index: 100;
 }
 
-ul.nav-list {
+.nav-list-wrap {
+  // $
   $text-color: #000;
   $bg-color: #fff;
+  // -
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   position: absolute;
   top: 0;
@@ -51,26 +56,68 @@ ul.nav-list {
 
   border-left: 1px solid rgba($color: $bg-color, $alpha: 0.3);
   background-color: $bg-color;
+  box-shadow: -10px 0px 10px 1px rgba($color: #000, $alpha: 0.3);
 
   animation-duration: 0.7s;
   // animation-timing-function: ease-in-out;
 
   z-index: 101;
+  ul {
+    li {
+      .nav-text-wrap {
+        display: block;
+        position: relative;
+        padding: 1rem;
 
-  li {
-    .nav-text {
-      padding: 1rem;
-      font-size: 1.5rem;
-      color: rgba($color: $text-color, $alpha: 0.3);
+        .nav-text {
+          position: relative;
+          font-family: 'Butler';
+          font-size: 1.5rem;
+          color: rgba($color: $text-color, $alpha: 0.3);
+          transition: all 0.4s;
+          &::after {
+            content: '';
+            display: inline-block;
+            width: 0;
+            height: 2px;
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            background-color: #000;
+            border-radius: 10%;
+            transition: all 0.4s;
+          }
+          &.isOn {
+            color: $text-color;
+          }
+        }
 
-      transition: all 0.5s;
+        &:hover {
+          .nav-text {
+            color: $text-color;
+          }
+
+          & .nav-text::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-list {
+    span {
+      padding: 0.5rem;
+      color: rgba($color: #000000, $alpha: 0.5);
+      transition: all 0.3s;
+
+      cursor: pointer;
 
       &:hover {
-        color: $text-color;
+        color: #000;
       }
-
-      &.isOn {
-        color: $text-color;
+      &:active {
+        color: #000;
       }
     }
   }
