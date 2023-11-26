@@ -43,6 +43,11 @@ const RightSideBar = () => {
       label: 'GitHub',
       url: 'https://github.com/KJWHUB',
     },
+    {
+      id: 'notion',
+      label: 'Notion',
+      url: 'https://odd-vacuum-f21.notion.site/1fe9bf3e4e1544d793739a1c4359de12?pvs=4',
+    },
   ]
 
   const isNavOn = (e: React.MouseEvent) => {

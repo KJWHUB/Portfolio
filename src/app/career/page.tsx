@@ -1,5 +1,4 @@
-'use client'
-
+import CareerList from '@/components/list/CareerList'
 import WhiteTitleText from '@/components/text/WhiteTitleText'
 
 export default function Page() {
@@ -11,6 +10,8 @@ export default function Page() {
       >
         CAREER
       </WhiteTitleText>
+
+      <CareerList />
     </>
   )
 }
