@@ -1,12 +1,13 @@
 'use client'
 
 import Image from 'next/image'
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-
 // Import Swiper styles
 import 'swiper/css'
+import 'swiper/css/pagination'
 
 import './skillSwiper.scss'
 
@@ -20,10 +21,16 @@ const SkillSwiper = () => {
     bulletClass: 'skill-pagination-bullet',
     bulletActiveClass: 'skill-pagination-bullet-active',
     renderBullet: function (index: any, className: any) {
-      return `<span class="${className}">
+      return `<div class="${className}">
       ${data.skill[index].label}
-      </span>`
+      </div>`
     },
+  }
+
+  const handleSlideChange = (swiper: any) => {
+    const atvI = swiper.activeIndex
+    const carculrateScroll = swiper.pagination.bullets[atvI].offsetLeft
+    swiper.pagination.el.scrollLeft = carculrateScroll
   }
   return (
     <div style={{ height: '100%' }}>
@@ -33,6 +40,7 @@ const SkillSwiper = () => {
         className="skill-swiper animate__animated animate__fadeIn"
         modules={[Pagination]}
         pagination={skill_pagination}
+        onSlideChange={handleSlideChange}
       >
         {data.skill.map((el, i) => {
           return (

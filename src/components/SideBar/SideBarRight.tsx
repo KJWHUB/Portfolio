@@ -15,6 +15,7 @@ const RightSideBar = () => {
 
   useEffect(() => {
     setActiveRoute(pathname)
+    setNavIsOn(false)
   }, [pathname, searchParams])
 
   const navList = [
@@ -36,6 +37,19 @@ const RightSideBar = () => {
     },
   ]
 
+  const bottomLink = [
+    {
+      id: 'github',
+      label: 'GitHub',
+      url: 'https://github.com/KJWHUB',
+    },
+    {
+      id: 'notion',
+      label: 'Notion',
+      url: 'https://odd-vacuum-f21.notion.site/1fe9bf3e4e1544d793739a1c4359de12?pvs=4',
+    },
+  ]
+
   const isNavOn = (e: React.MouseEvent) => {
     e.stopPropagation()
     setNavIsOn(true)
@@ -43,6 +57,10 @@ const RightSideBar = () => {
   const isNavOff = (e: React.MouseEvent) => {
     e.stopPropagation()
     setNavIsOn(false)
+  }
+
+  const handleOpenWindow = (el: { id: string; label: string; url: string }) => {
+    window.open(el.url)
   }
 
   return (
@@ -63,30 +81,47 @@ const RightSideBar = () => {
         onClick={isNavOff}
       ></div>
 
-      <ul
+      <div
         className={classNames(
-          'nav-list',
+          'nav-list-wrap',
           'animate__animated',
           navIsOn ? 'animate__fadeInRight' : 'animate__fadeOutRight',
         )}
       >
-        {navList.map((el) => {
-          return (
-            <li key={el.id}>
-              <Link href={el.id}>
-                <p
-                  className={classNames(
-                    'nav-text',
-                    el.id === activeRoute ? 'isOn' : '',
-                  )}
-                >
-                  {el.label.toLocaleUpperCase()}
-                </p>
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
+        <ul>
+          {navList.map((el) => {
+            return (
+              <li key={el.id}>
+                <Link href={el.id} className={classNames('nav-text-wrap')}>
+                  <span
+                    className={classNames(
+                      'nav-text',
+                      el.id === activeRoute ? 'isOn' : '',
+                    )}
+                  >
+                    {el.label.toLocaleUpperCase()}
+                  </span>
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+
+        <div className="bottom-list">
+          {bottomLink.map((el, i) => {
+            return (
+              <span
+                key={i}
+                onClick={() => {
+                  handleOpenWindow(el)
+                }}
+              >
+                {el.label}
+              </span>
+            )
+          })}
+        </div>
+      </div>
     </>
   )
 }

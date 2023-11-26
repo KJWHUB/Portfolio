@@ -1,9 +1,6 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import '@/styles/globals.scss'
 import LeafBgLayout from '@/components/layout/LeafBgLayout'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'KJW Portfolio',
@@ -17,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className={inter.className}>
+      <body>
         <LeafBgLayout>{children}</LeafBgLayout>
       </body>
     </html>

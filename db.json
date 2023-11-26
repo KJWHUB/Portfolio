@@ -246,5 +246,14 @@
         }
       ]
     }
+  ],
+  "career": [
+    {
+      "id": "12cm",
+      "company_name": "원투씨엠(주)",
+      "company_affiliated_team": "echoss 개발팀",
+      "company_img": "/images/career/12cm_logo.png",
+      "company_work": "2022.11 - 현재"
+    }
   ]
 }

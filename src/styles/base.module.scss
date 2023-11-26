@@ -25,14 +25,33 @@ html {
 }
 
 body {
+  font-family: 'Pretendard';
   font-size: 16px;
 
   overflow: hidden;
 }
 
-//
-.title-01 {
-  font-size: 10rem;
-  font-weight: 700;
-  color: var(--color-white);
+/* ======================================== media query ======================================== */
+// 3200
+@media screen and (min-width: 3200px) {
+  body {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+// 장치가 가로 방향인 경우 적용
+@media (orientation: landscape) {
+}
+
+// 장치가 세로 방향인 경우 적용
+@media (orientation: portrait) {
 }

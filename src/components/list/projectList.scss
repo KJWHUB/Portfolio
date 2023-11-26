@@ -1,0 +1,15 @@
+ul.project-list-wrap {
+  overflow-y: scroll;
+  li.project-list-item {
+    width: calc(100%);
+    margin: calc(0.5rem);
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  ul.project-list-wrap {
+    li.project-list-item {
+      width: calc(48%);
+    }
+  }
+}

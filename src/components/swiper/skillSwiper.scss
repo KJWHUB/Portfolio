@@ -3,8 +3,11 @@ div.skill-pagination-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 
   margin-bottom: 2rem;
+
+  overflow-x: scroll;
 
   z-index: 99;
 
@@ -41,7 +44,6 @@ div.skill-pagination-wrap {
 
 // swiper wrap
 .skill-swiper {
-  height: 87%;
   .swiper-wrapper {
     height: 100%;
   }
@@ -50,8 +52,20 @@ div.skill-pagination-wrap {
     display: flex;
     flex-wrap: wrap;
 
+    align-items: flex-start;
+
     .skill-item {
       padding: 1rem;
+    }
+  }
+}
+
+// 3200
+@media screen and (min-width: 3200px) {
+  div.skill-pagination-wrap {
+    .skill-pagination-bullet {
+      padding: 1.5rem 6rem;
+      font-size: 2rem;
     }
   }
 }

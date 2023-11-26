@@ -29,7 +29,7 @@
     margin-bottom: 0.5rem;
     white-space: nowrap;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 900;
   }
   .subTitle {
     margin-bottom: 2.5rem;
@@ -39,5 +39,36 @@
   }
   .description {
     white-space: nowrap;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 3200px) {
+  .glass_card_wrap {
+    padding: 4rem;
+
+    .title {
+      font-size: 4rem;
+    }
+    .subTitle {
+      font-size: 3rem;
+    }
+    .description {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 500px) {
+  .glass_card_wrap {
+    .title {
+      font-size: 1.5rem;
+    }
+    .subTitle {
+      font-size: 1.3rem;
+    }
+    .description {
+      font-size: 1rem;
+    }
   }
 }
