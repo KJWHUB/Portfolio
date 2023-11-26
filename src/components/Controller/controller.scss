@@ -18,6 +18,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    font-family: 'Butler';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10rem;
+    color: var(--color-white);
   }
 
   .myInfo-wrap {
@@ -25,11 +31,11 @@
     bottom: 3rem;
 
     .job-title {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       background-color: 0;
       color: #fff;
       font-size: 2rem;
-      font-weight: 700;
+      font-weight: 600;
     }
 
     ul {
@@ -51,6 +57,83 @@
           font-weight: 300;
         }
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  .controller-wrap {
+    min-width: 1100px;
+    width: 60vw;
+    margin: 0 auto;
+    .controller-glassCard {
+      border-radius: 30px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1230px) {
+  .controller-wrap {
+    .portfoilo-text {
+      font-size: 7rem;
+    }
+
+    .myInfo-wrap {
+      .job-title {
+        font-size: 1.5rem;
+      }
+
+      ul {
+        li {
+          span {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .controller-wrap {
+    .controller-glassCard {
+      .portfoilo-text {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 500px) {
+  .controller-wrap {
+    .controller-glassCard {
+      padding: 3rem 1rem;
+
+      .portfoilo-text {
+        font-size: 3rem;
+      }
+
+      .myInfo-wrap {
+        .job-title {
+          font-size: 1rem;
+        }
+
+        ul {
+          li {
+            span {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0) {
+  .controller-wrap {
+    .controller-glassCard {
+      border-radius: 0;
     }
   }
 }

@@ -37,7 +37,7 @@ const MyInfo = () => {
 export default function Home() {
   return (
     <>
-      <h2 className="title-01 portfoilo-text animate__animated animate__fadeIn">
+      <h2 className="portfoilo-text animate__animated animate__fadeIn">
         Portfoilo
       </h2>
 
