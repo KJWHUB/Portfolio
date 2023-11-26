@@ -1,10 +1,10 @@
 'use client'
 
 import Image from 'next/image'
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
-
 // Import Swiper styles
 import 'swiper/css'
 

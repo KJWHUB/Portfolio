@@ -18,6 +18,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    font-family: 'Butler';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10rem;
+    color: var(--color-white);
   }
 
   .myInfo-wrap {
@@ -25,11 +31,11 @@
     bottom: 3rem;
 
     .job-title {
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       background-color: 0;
       color: #fff;
       font-size: 2rem;
-      font-weight: 700;
+      font-weight: 600;
     }
 
     ul {

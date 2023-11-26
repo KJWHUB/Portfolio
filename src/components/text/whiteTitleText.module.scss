@@ -1,5 +1,13 @@
 h2.wrap {
+  font-family: 'Butler';
+  font-weight: 500;
   color: white;
   font-size: 3rem;
   font-weight: 700;
+}
+
+@media screen and (min-width: 3200px) {
+  h2.wrap {
+    font-size: 5rem;
+  }
 }
