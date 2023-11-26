@@ -155,7 +155,12 @@
       "project_name": "Smlie Trip",
       "project_subName": "온라인 여행 플랫폼",
       "project_description": "백오피스 화면 개발, API 개발",
-      "project_content": ["lorem"],
+      "project_content": [
+        "경북 봐야지(GB VOYAGE)는 경상북도 북부 11개 시군의 관광 정보를 제공하는 온라인 여행 플랫폼입니다. 2023년 9월 21일 오픈했으며 상용화된 여행 통합 플랫폼입니다.",
+        "경북 봐야지 사이트는 한국어, 영어, 일본어, 중국어 등 4개 언어로 서비스되고 있습니다.",
+        "경북 봐야지 어드민 사이트의 백엔드 개발을 통해 실무에서의 백엔드 개발 경험을 쌓았습니다.",
+        "기본적인 API CRUD와 테이블 설계, 아키텍처 설계를 경험하고, 이를 통해 백엔드 개발에 대한 이해도를 높였습니다."
+      ],
       "project_image": "/images/project/st_dashborad.png",
       "project_skill": [
         {
@@ -179,7 +184,11 @@
       "project_name": "BAEXANG GALLERY",
       "project_subName": "온라인 그림 컨텐츠 쇼핑 서비스",
       "project_description": "클라이언트 화면 개발 (Clone code)",
-      "project_content": ["lorem"],
+      "project_content": [
+        "개발을 시작하고 처음으로 스스로 만들어본 그림중계 사이트 입니다.",
+        "메인 화면만 개발하였지만 언어에 대한 숙련도와 문제해결 능력을 키울수 있었습니다.",
+        "특히 반응형 코드를 작성하면서 태그 프레임과 설계 에 대한 중요성을 알게 되었습니다."
+      ],
       "project_image": "/images/project/baxsang_page.png",
       "project_skill": [
         {
@@ -203,7 +212,10 @@
       "project_name": "A TWOSOME PLACE",
       "project_subName": "온라인 비즈니스 소개페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
-      "project_content": ["lorem"],
+      "project_content": [
+        "이 프로젝트는 원페이지 기능 구현을 해보고 싶어서 제작하게된 페이지 입니다.",
+        "원페이지 를 구현할수 있는 라이브러리를 사용하지 않고 개발하였습니다."
+      ],
       "project_image": "/images/project/twosome_page.png",
       "project_skill": [
         {
@@ -227,7 +239,10 @@
       "project_name": "OSKA Product",
       "project_subName": "온라인 상품 소개 페이지",
       "project_description": "클라이언트 화면 개발 (Clone code)",
-      "project_content": ["lorem"],
+      "project_content": [
+        "waypoint 를 이용한 스크롤 애니메이션에 대한 이해와 방식을 공부하고싶어 개발하게된 사이트 입니다.",
+        "원본 소스를 보면서 gsap 라이브러리 코드가 많았었는데 원본 코드를 보면서 인스턴스에 애니메이션을 주입하는 과정을 공부할수 있었습니다."
+      ],
       "project_image": "/images/project/oska_page.png",
       "project_skill": [
         {
