@@ -1,4 +1,4 @@
-import SkillSwiper from '@/components/swiper/SkillSwiper'
+import SkillList from '@/components/list/SkillList'
 import WhiteTitleText from '@/components/text/WhiteTitleText'
 
 export default function Page() {
@@ -10,6 +10,8 @@ export default function Page() {
       >
         SKILL
       </WhiteTitleText>
+
+      <SkillList />
 
       {/* <SkillSwiper /> */}
     </>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import 'react-perfect-scrollbar/dist/css/styles.css'
 import '@/styles/globals.scss'
 import LeafBgLayout from '@/components/layout/LeafBgLayout'
 

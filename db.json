@@ -94,6 +94,17 @@
       ]
     },
     {
+      "id": "mobile",
+      "label": "Mobile App",
+      "list": [
+        {
+          "skill_id": "react-native",
+          "skill_name": "React Native",
+          "skill_icon": "/svgs/react_icon.svg"
+        }
+      ]
+    },
+    {
       "id": "version_control",
       "label": "Version Control",
       "list": [
