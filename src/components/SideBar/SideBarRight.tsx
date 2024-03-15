@@ -31,10 +31,11 @@ const RightSideBar = () => {
       id: '/project',
       label: 'project',
     },
-    {
-      id: '/career',
-      label: 'career',
-    },
+    // TODO: 더많은 회사를 경험후 추가
+    // {
+    //   id: '/career',
+    //   label: 'career',
+    // },
   ]
 
   const bottomLink = [
@@ -46,6 +47,11 @@ const RightSideBar = () => {
     {
       id: 'notion',
       label: 'Notion',
+      url: 'https://odd-vacuum-f21.notion.site/1fe9bf3e4e1544d793739a1c4359de12?pvs=4',
+    },
+    {
+      id: 'pdf',
+      label: 'PDF',
       url: 'https://odd-vacuum-f21.notion.site/1fe9bf3e4e1544d793739a1c4359de12?pvs=4',
     },
   ]
