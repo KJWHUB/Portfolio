@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, Mail, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon } from "lucide-react";
 
 const email = "art.1025p@gmail.com";
 
@@ -7,12 +7,12 @@ export const DATA = {
   name: "Kwon Jung Woon",
   initials: "DV",
   url: "https://portfolio-kjwhub.vercel.app",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Seoul, South Korea",
+  locationLink: "https://www.google.com/maps/place/seoul",
   description:
     "안녕하세요! 저는 웹 개발자입니다. 직관적이고 역동적인 인터페이스를 만들며, 좋은 DX와 UX를, 효과적인 아키텍쳐를 고민합니다.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "2년차 웹 개발자로서, 근무지는 서울, 경기도에서 근무하고있습니다. React와 Vue를 주로 사용하며, Typescript를 선호합니다. 백엔드는 Spring Boot를 사용해봤으며, 현재는 Next.js와 Nuxt.js를 주로 사용하고 있습니다.",
   avatarUrl: "/me.png",
   skills: ["React", "Vue", "Typescript", "Next.js", "Nuxt.js", "Docker", "Java"],
   navbar: [
@@ -33,7 +33,7 @@ export const DATA = {
       Email: {
         name: "Email",
         url: `mailto:${email}`,
-        icon: Mail,
+        icon: Icons.email,
 
         navbar: true,
       },
@@ -190,7 +190,7 @@ export const DATA = {
   projects: [
     {
       title: "Portfolio",
-      href: "https://www.google.com",
+      href: "https://portfolio-kjwhub.vercel.app",
       dates: "Jul 2023 - Dec 2023",
       active: true,
       description: "temp",
@@ -198,28 +198,68 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://www.google.com",
+          href: "https://portfolio-kjwhub.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/KJWHUB/portfolio",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/project/smile-trip.png",
+      image: "/project/empty.png",
+      video: "",
+    },
+    {
+      title: "KB증권 WTS M-able 와이드",
+      href: "https://github.com/KJWHUB/kb-mablewide-clone",
+      dates: "Jul 2023 - Dec 2023",
+      active: true,
+      description: "temp",
+      technologies: ["Nuxt.js", "Typescript", "Highcharts"],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/KJWHUB/kb-mablewide-clone",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KJWHUB/kb-mablewide-clone",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project/kb-wts-mable.png",
       video: "",
     },
     {
       title: "Admin Template",
-      href: "https://www.google.com",
+      href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
       dates: "Jul 2023 - Dec 2023",
       active: true,
       description: "temp",
-      technologies: ["Vue", "Typescript", "MSW", "Vitest", "Storybook"],
+      technologies: [
+        "Vue",
+        "Typescript",
+        "MSW",
+        "Vitest",
+        "Storybook",
+        "Element Plus",
+        "FSD Architecture",
+      ],
       links: [
         {
           type: "Website",
-          href: "https://www.google.com",
+          href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/project/smile-trip.png",
+      image: "/project/empty.png",
       video: "",
     },
     {
@@ -246,58 +286,42 @@ export const DATA = {
     },
     {
       title: "한화 에어로스페이스",
-      href: "https://www.google.com",
-      dates: "Jul 2023 - Dec 2023",
+      href: "https://hanwhaaerospace-study.web.app",
+      dates: "Jul 2023 - Present",
       active: true,
       description: "temp",
       technologies: ["Next.js", "Typescript", "Tailwind CSS", "Firebase"],
       links: [
         {
           type: "Website",
-          href: "https://www.google.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/project/smile-trip.png",
-      video: "",
-    },
-    {
-      title: "Trip AMI",
-      href: "https://www.google.com",
-      dates: "Jul 2023 - Dec 2023",
-      active: true,
-      description: "temp",
-      technologies: ["React Native", "Typescript", "Expo"],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.google.com",
+          href: "https://hanwhaaerospace-study.web.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/KJWHUB/kwonjungwoon-blog",
+          href: "https://github.com/KJWHUB/hanwha-as",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/project/smile-trip.png",
+      image: "/project/empty.png",
       video: "",
     },
     {
-      title: "KB증권 WTS M-able 와이드",
-      href: "https://www.google.com",
-      dates: "Jul 2023 - Dec 2023",
-      active: true,
-      description: "temp",
-      technologies: ["Nuxt.js", "Typescript", "Highcharts"],
+      title: "Trip AMI",
+      href: "https://github.com/orgs/TRIP-AMI/repositories",
+      dates: "Oct 2023 - Feb 2024",
+      active: false,
+      description:
+        "Trip AMI는 한국 여행자들을 위한 여행 일정 관리 및 공유, 만남 플랫폼입니다. 여행 일정을 작성하고, 다른 사용자와 일정을 공유하며, 앱에서 등록한 현지 AMI 들과 여행을 함께하는 플랫폼 입니다. Trip AMI 프로젝트에서는 React Native을 사용하여 모바일 앱을 개발하였습니다. Expo를 사용하여 개발하였으며, Typescript를 사용하여 타입 안정성을 확보하였습니다. 이 프로젝트를 통해 Native OS API를 사용하는 경험을 쌓았으며, React Native의 장단점을 경험하며, 모바일 앱 개발에 대한 이해도를 높였습니다.",
+      technologies: ["React Native", "Typescript", "Expo"],
       links: [
         {
-          type: "Website",
-          href: "https://www.google.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/orgs/TRIP-AMI/repositories",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/project/smile-trip.png",
+      image: "/project/tripami.png",
       video: "",
     },
     {
