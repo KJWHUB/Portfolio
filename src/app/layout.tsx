@@ -17,6 +17,7 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
+  keywords: ["포트폴리오", "개발자", "개발자 포트폴리오"],
   title: {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
