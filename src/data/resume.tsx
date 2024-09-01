@@ -213,7 +213,7 @@ export const DATA = {
     {
       title: "KB증권 WTS M-able 와이드",
       href: "https://enchanting-dusk-348803.netlify.app",
-      dates: "Jul 2023 - Dec 2023",
+      dates: "Jun 2024 - Sep 2024",
       active: true,
       description:
         "Nuxt.js 의 기본적인 사용법을 익히기 위해 KB증권의 M-able 와이드 웹사이트를 클론코딩하였습니다. 이 프로젝트를 통해 Nuxt.js의 기본적인 디렉토리 기반의 auth import 와 Nuxt.js 의 SSR 기능을 이해하였습니다.",
