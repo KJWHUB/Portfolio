@@ -10,11 +10,11 @@ export const DATA = {
   location: "Seoul, South Korea",
   locationLink: "https://www.google.com/maps/place/seoul",
   description:
-    "안녕하세요! 저는 웹 개발자입니다. 직관적이고 역동적인 인터페이스를 만들며, 좋은 DX와 UX를, 효과적인 아키텍쳐를 고민합니다.",
+    "안녕하세요! 저는 웹 개발자 권중운 입니다. 직관적이고 역동적인 인터페이스를 만들며, 좋은 DX와 UX를, 효과적인 아키텍쳐를 고민합니다.",
   summary:
     "2년차 웹 개발자로서, 근무지는 서울, 경기도에서 근무하고있습니다. React와 Vue를 주로 사용하며, Typescript를 선호합니다. 백엔드는 Spring Boot를 사용해봤으며, 현재는 Next.js와 Nuxt.js를 주로 사용하고 있습니다.",
   avatarUrl: "/me.png",
-  skills: ["React", "Vue", "Typescript", "Next.js", "Nuxt.js", "Docker", "Java"],
+  skills: ["React", "Vue", "Typescript", "Next.js", "Nuxt.js", "Docker", "JPA"],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "https://kwonjungwoon-blog.netlify.app", icon: NotebookIcon, label: "Blog" },
@@ -188,28 +188,28 @@ export const DATA = {
     // },
   ],
   projects: [
-    {
-      title: "Portfolio",
-      href: "https://portfolio-kjwhub.vercel.app",
-      dates: "Jul 2023 - Dec 2023",
-      active: true,
-      description: "temp",
-      technologies: ["Next.js", "Typescript", "Tailwind CSS", "Shadcn UI", "Magic UI"],
-      links: [
-        {
-          type: "Website",
-          href: "https://portfolio-kjwhub.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/KJWHUB/portfolio",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/project/empty.png",
-      video: "",
-    },
+    // {
+    //   title: "Portfolio",
+    //   href: "https://portfolio-kjwhub.vercel.app",
+    //   dates: "Jul 2023 - Dec 2023",
+    //   active: true,
+    //   description: "temp",
+    //   technologies: ["Next.js", "Typescript", "Tailwind CSS", "Shadcn UI", "Magic UI"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://portfolio-kjwhub.vercel.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/KJWHUB/portfolio",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/project/empty.png",
+    //   video: "",
+    // },
     {
       title: "KB증권 WTS M-able 와이드",
       href: "https://enchanting-dusk-348803.netlify.app",
@@ -217,7 +217,7 @@ export const DATA = {
       active: true,
       description:
         "Nuxt.js 의 기본적인 사용법을 익히기 위해 KB증권의 M-able 와이드 웹사이트를 클론코딩하였습니다. 이 프로젝트를 통해 Nuxt.js의 기본적인 디렉토리 기반의 auth import 와 Nuxt.js 의 SSR 기능을 이해하였습니다.",
-      technologies: ["Nuxt.js", "Typescript", "Highcharts"],
+      technologies: ["Nuxt.js", "Typescript", "Highcharts", "Netlify"],
       links: [
         {
           type: "Website",
@@ -234,11 +234,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Admin Template",
+      title: "Vue3 Admin Template",
       href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
-      dates: "Jul 2023 - Dec 2023",
+      dates: "Jul 2024 - Now",
       active: true,
-      description: "temp",
+      description:
+        "Vue3 + [Element Plus](https://element-plus.org/en-US/component/overview.html) 기반의 관리자 템플릿입니다. meta 데이터 기반의 라우팅 기능, [MSW](https://mswjs.io) 를 사용한 API Mocking, [FSD](https://feature-sliced.design) 아키텍처를 적용하였습니다.",
       technologies: [
         "Vue",
         "Typescript",
@@ -249,11 +250,11 @@ export const DATA = {
         "FSD Architecture",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
           href: "https://github.com/KJWHUB/vue3-admin-template-el-plus",
@@ -268,8 +269,9 @@ export const DATA = {
       href: "https://kwonjungwoon-blog.netlify.app",
       dates: "Jul 2023 - Dec 2023",
       active: true,
-      description: "temp",
-      technologies: ["Gatsby", "Typescript", "Netlify CMS"],
+      description:
+        "잼스택(JAMstack)기반 프레임워크인 [Gatsby](https://www.gatsbyjs.com)를 사용하여 만든 개인 개발 블로그입니다. Gatsby 를 사용하면서 사실 그다지 만족스러운 DX는 아니었습니다. 이유는 Gatsby 여러 플러그인 들을 사용했지만 제대로 통합되지않는 버그들을 겪었습니다. 하지만, Gatsby를 사용하면서 GraphQL을 사용하는 방법과, 잼스택 기반의 빠른 랜더링, 가벼움 등 장점을 체험 해볼수 있었습니다.",
+      technologies: ["Gatsby", "GraphQL", "Typescript", "Netlify CMS"],
       links: [
         {
           type: "Website",
@@ -285,35 +287,35 @@ export const DATA = {
       image: "/project/myblog.png",
       video: "",
     },
-    {
-      title: "한화 에어로스페이스",
-      href: "https://hanwhaaerospace-study.web.app",
-      dates: "Jul 2023 - Present",
-      active: true,
-      description: "temp",
-      technologies: ["Next.js", "Typescript", "Tailwind CSS", "Firebase"],
-      links: [
-        {
-          type: "Website",
-          href: "https://hanwhaaerospace-study.web.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/KJWHUB/hanwha-as",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/project/empty.png",
-      video: "",
-    },
+    // {
+    //   title: "한화 에어로스페이스",
+    //   href: "https://hanwhaaerospace-study.web.app",
+    //   dates: "Jul 2023 - Present",
+    //   active: true,
+    //   description: "temp",
+    //   technologies: ["Next.js", "Typescript", "Tailwind CSS", "Firebase"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://hanwhaaerospace-study.web.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/KJWHUB/hanwha-as",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/project/empty.png",
+    //   video: "",
+    // },
     {
       title: "Trip AMI",
       href: "https://github.com/orgs/TRIP-AMI/repositories",
       dates: "Oct 2023 - Feb 2024",
       active: false,
       description:
-        "Trip AMI는 한국 여행자들을 위한 여행 일정 관리 및 공유, 만남 플랫폼입니다. 여행 일정을 작성하고, 다른 사용자와 일정을 공유하며, 앱에서 등록한 현지 AMI 들과 여행을 함께하는 플랫폼 입니다. Trip AMI 프로젝트에서는 React Native을 사용하여 모바일 앱을 개발하였습니다. Expo를 사용하여 개발하였으며, Typescript를 사용하여 타입 안정성을 확보하였습니다. 이 프로젝트를 통해 Native OS API를 사용하는 경험을 쌓았으며, React Native의 장단점을 경험하며, 모바일 앱 개발에 대한 이해도를 높였습니다.",
+        "Trip AMI는 한국 여행자들을 위한 여행 일정 관리 및 공유, 만남 플랫폼입니다. 여행 일정을 작성하고, 다른 사용자와 일정을 공유하며, 앱에서 등록한 현지 AMI 들과 여행을 함께하는 플랫폼 입니다. Trip AMI 프로젝트에서는 React Native을 사용하여 모바일 앱을 개발하였습니다. [Expo](https://expo.dev)를 사용하여 개발하였으며, Typescript를 사용하여 타입 안정성을 확보하였습니다. 이 프로젝트를 통해 Native OS API를 사용하는 경험을 쌓았으며, React Native의 장단점을 경험하며, 모바일 앱 개발에 대한 이해도를 높였습니다.",
       technologies: ["React Native", "Typescript", "Expo"],
       links: [
         {
