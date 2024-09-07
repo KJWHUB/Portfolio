@@ -217,7 +217,7 @@ export const DATA = {
       active: true,
       description:
         "Nice Auth Utils는 NICE 본인인증 기능을 구현할때 편의성을 제공하는 유틸리티 라이브러리 입니다. 이 프로젝트를 통해 esbuild를 사용하여 빌드하는 방법과 NPM 레지스트리에 라이브러리를 배포하는 방법을 익혔습니다.",
-      technologies: ["ESbuild", "Typescript", "NPM Registry"],
+      technologies: ["ESbuild", "Typescript", "NPM Registry", "VitePress"],
       links: [
         {
           type: "Docs",
