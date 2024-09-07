@@ -211,6 +211,29 @@ export const DATA = {
     //   video: "",
     // },
     {
+      title: "Nice Auth Utills",
+      href: "https://kjwhub.github.io/nice-auth-utils",
+      dates: "Aug 2024 - Now",
+      active: true,
+      description:
+        "Nice Auth Utils는 NICE 본인인증 기능을 구현할때 편의성을 제공하는 유틸리티 라이브러리 입니다. 이 프로젝트를 통해 esbuild를 사용하여 빌드하는 방법과 NPM 레지스트리에 라이브러리를 배포하는 방법을 익혔습니다.",
+      technologies: ["ESbuild", "Typescript", "NPM Registry", "VitePress"],
+      links: [
+        {
+          type: "Docs",
+          href: "https://kjwhub.github.io/nice-auth-utils",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/KJWHUB/nice-auth-utils",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project/nice-auth-utils.png",
+      video: "",
+    },
+    {
       title: "KB증권 WTS M-able 와이드",
       href: "https://enchanting-dusk-348803.netlify.app",
       dates: "Jun 2024 - Sep 2024",
