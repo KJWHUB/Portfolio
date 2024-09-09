@@ -229,6 +229,11 @@ export const DATA = {
           href: "https://github.com/KJWHUB/nice-auth-utils",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "NPM",
+          href: "https://www.npmjs.com/package/nice-auth-utils",
+          icon: <Icons.npm className="size-3" />,
+        },
       ],
       image: "/project/nice-auth-utils.png",
       video: "",
