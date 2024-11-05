@@ -76,7 +76,7 @@ export const DATA = {
       title: "Web Developer",
       logoUrl: "/company/onetwocm_logo.jpg",
       start: "Nov 2022",
-      end: "Now",
+      end: "Oct 2024",
       description:
         "Vue 프레임워크를 사용하여 고객사 및 회사 내부 프로젝트의 관리자와 유저 클라이언트 화면을 설계하고 개발했습니다. Spring 프레임워크를 사용해 백엔드 RESTful API를 설계 및 구현하였으며 Vue2에서 Vue3로의 프로젝트 마이그레이션을 주도하여 진행했습니다. 이 과정에서 코드베이스를 리팩터링하고, Composition API와 같은 Vue3의 새로운 기능을 활용하여 성능 최적화와 코드 유지보수성을 개선했습니다.",
     },
